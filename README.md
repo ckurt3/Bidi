@@ -27,3 +27,7 @@ See [`docs/realtime-events.md`](docs/realtime-events.md) for the full client spe
 - **`human_events`** table — clients insert messages here to talk to the agent
 - **`agent_events`** table — milestone events (assistant messages, tool use, results) are persisted here
 - **`agent_event`** broadcast — all SDK events are broadcast in real-time on the `chat` channel
+
+## License
+
+Bidi is available under the [MIT License](LICENSE).
